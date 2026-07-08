@@ -1,1 +1,0 @@
-Verification environments and testbenches.
