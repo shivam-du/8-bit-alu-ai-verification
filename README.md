@@ -1,4 +1,8 @@
 # 8-Bit Arithmetic Logic Unit (ALU) with AI-Assisted Verification
+![Verilog](https://img.shields.io/badge/HDL-Verilog-blue)
+![Tool](https://img.shields.io/badge/Tool-AMD%20Vivado-orange)
+![Verification](https://img.shields.io/badge/Verification-AI%20Assisted-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ## Overview
 
@@ -91,6 +95,31 @@ Additional verification cases included:
 | Junction Temperature | 62.7 °C |
 
 ---
+
+## Results
+
+### Simulation Waveform
+
+![Simulation Waveform](Images/original_op.png)
+![Simulation Waveform](Images/improved_op.png)
+
+### RTL Schematic
+
+![RTL Schematic](Images/rtl_design.png)
+![RTL Schematic](Images/sinthesised_design.png)
+
+### FPGA Device View
+
+![Device View](Images/device_view.png)
+
+### Resource Utilization
+
+![Synthesis Report](Images/resource_utilization.png)
+
+### Power Analysis
+
+![Power Report](Images/power_utilization.png)
+
 
 ## Tools Used
 
